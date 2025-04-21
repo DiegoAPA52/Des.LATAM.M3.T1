@@ -1,6 +1,3 @@
-precio = 400000
-
-
 const precioBase = 400000; 
 const precioInicialSpan = document.querySelector(".precio-inicial");
 const cantidadSpan = document.querySelector(".cantidad");
@@ -23,7 +20,6 @@ botonIncrementar.addEventListener("click", () => {
   cantidadProductos++;
   actualizarTotal();
 });
-
 
 botonDecrementar.addEventListener("click", () => {
   if (cantidadProductos > 0) {
